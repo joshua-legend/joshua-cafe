@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Joshua'cafe</title>
+  <link rel="stylesheet" href="default.css">
+  <link rel="stylesheet" href="media_query.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d6d3648344.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="wrap">
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <a href="#">Joshua's Cafe </a>
+    </div>
+    <div class="navbar__menu">
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item"><a href="#">Home</a></li>
+        <li class="navbar__menu__item"><a href="#">We Run</a></li>
+        <li class="navbar__menu__item"><a href="#">Menu</a></li>
+        <li class="navbar__menu__item"><a href="#">Store</a></li>
+      </ul>
+    </div>
+    <span class="menu-toggle-button">
+      <i class="fas fa-bars"></i>
+    </span>
+  </nav>
+  <article class="slider"><img src="img/main.jpg" alt=""></article>
+  <section class="content">
+        <section id="we_run">
+          <div class="container">
+            <h2 class="section__title">WE RUN <i class="fas fa-truck"></i></h2>
+            <p>Joshua'cafe 품질 좋은 원두를 직수입하여<br> 본사의 철저한 로스팅 관리를 통해 높은 품질 수준을 유지합니다</p>
+          </div>
+        </section>
+        <section id="we_run_pictogram">
+          <div class="container">
+              <div class="pictogram">
+                <i class="fab fa-pagelines"></i><h3>Harvest</h3><p>Joshua'cafe는 원두가 잘 자라는 기후와 비옥한 토양을 가진 커피벨트에서 수확을 합니다.</p>
+              </div>
+              <div class="pictogram"><i class="fas fa-clipboard-check"></i><h3>Selected</h3><p>수년간 연구해온 결과로 원두의 품질을 엄선하여 선별을 합니다.</p></div>
+              <div class="pictogram"><i class="fas fa-plane-departure"></i><h3>Supply</h3><p>선별된 원두들은 1주일 이내에 해당국가로 공급을 진행합니다.</p></div>
+              <div class="pictogram"><i class="fas fa-coffee"></i><h3>Roasting</h3><p>소비자들에게 보다 좋은 커피를 로스팅하여 제공하고 있습니다.</p></div>
+          </div>
+        </section>
+        <hr class="divider">
+        <section id="menu">
+            <div class="container">
+                <h2 class="section__title">Menu <i class="fas fa-mug-hot"></i></h2>
+                <div class="menu"><img src="img/coffee1.png" alt=""><span>Americano</span><p>조슈아 커피만의 맛과 향을 더한 100% 아라비카 로스팅 원두로 뽑아내 깊고 진한 맛 </p></div>
+                <div class="menu"><img src="img/coffee2.png" alt=""><span>Latte</span><p>진한 에스프레소와 우유가 어우려져 탄생한 부드러운 조슈아 라떼</p></div>
+                <div class="menu"><img src="img/coffee3.png" alt=""><span>Capucchino</span><p>우유를 섞은 커피에 계핏가루를 뿌린 이탈리아식 커피</p></div>
+            </div>
+        </section>
+        <hr class="divider">
+        <section id="store">
+            <div class="container">
+                <h2 class="section__title">Store <i class="fas fa-store-alt"></i></h2>
+                <p>저희는 경기와 서울에 다양한 매장을 보유하고 있습니다.</p>
+            </div>
+            <div class="slide">
+                <img src="img/cafe1.png" alt="" id="slide_photo">
+                <div class="store_slide">
+                    <a class="prev" id="photo_prev" onclick="">&#10094;</a>
+                    <span id="store_name">신촌 본점</span>
+                    <a class="next" id="photo_next" onclick="">&#10095;</a>
+                </div>
+            </div>
+        </section>
+        <hr class="divider">
+  </section>
+  <script src="main.js"></script>
+</div>
+</body>
+</html>
